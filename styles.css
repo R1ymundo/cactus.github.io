@@ -1,0 +1,114 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.section h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista li {
+    margin-bottom: 15px;
+}
+
+.lista li strong {
+    font-weight: bold;
+}
+
+#carouselExampleIndicators {
+    text-align: center;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    max-width: 700px; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+.descripcion-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 100%; 
+    box-sizing: border-box;
+    padding: 0 20px; 
+}
+
+/* Estilos para la sección "Descripción" */
+#descripcion {
+    background-color: #F5F5DC; /* Color de fondo gris claro */
+}
+
+/* Estilos para la sección "Características principales" */
+#caracteristicas {
+    background-color: #DCDCDC; /* Color de fondo gris claro */
+}
+
+/* Estilos para la sección "Cuidados" */
+#cuidados {
+    background-color: #F5F5DC; /* Color de fondo gris claro */
+}
+
+/* Estilos para la sección "Usos" */
+#usos {
+    background-color: #DCDCDC; /* Color de fondo gris claro */
+}
+
+/* Estilos para la sección "Galería de Imágenes" */
+#galeria {
+    background-color: #F5F5DC; /* Color de fondo gris claro */
+}
+
+/* Estilos para la sección "Curiosidades y Datos Interesantes" */
+#curiosidades {
+    background-color: #DCDCDC; /* Color de fondo gris claro */
+    
+}
+
+/* Estilos para la sección "Consejos de Diseño y Decoración" */
+#diseno-decoracion {
+    background-color: #F5F5DC; /* Color de fondo gris claro */
+    
+}
+
